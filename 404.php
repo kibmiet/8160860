@@ -7,12 +7,12 @@ define("HIDE_SIDEBAR", true);
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetTitle("Страница не найдена");?>
+$APPLICATION->SetTitle("Страница н22е найдена");?>
 
 	<div class="bx-404-container">
 		<div class="bx-404-block"><img src="<?=SITE_DIR?>images/404.png" alt=""></div>
 		<div class="bx-404-text-block">Неправильно набран адрес, <br>или такой страницы на сайте больше не существует.</div>
-		<div class="">Вернитесь на <a href="<?=SITE_DIR?>">главную</a> или воспользуйтесь картой сайта.</div>
+		<div class="">Вернитесь наdd <a href="<?=SITE_DIR?>">главную</a> или воспользуйтесь картой сайта.</div>
 	</div>
 	<div class="map-columns row">
 		<div class="col-sm-10 col-sm-offset-1">
